@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     fontSize: {
       'sm': '0.875rem',
+      'md': '1.25rem',
       'lg':'2.156rem',
 
     },
@@ -21,7 +22,8 @@ module.exports = {
         primary : '#36364A',
         white : '#FFFFFF',
         natural: '#BEC9D5',
-        darkgray:'#2E2A4D'
+        darkgray:'#2E2A4D',
+        purple : '#5B3ACC'
       }
     },
   },
