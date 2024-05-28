@@ -1,10 +1,12 @@
 import React from 'react'
 import Navbar from '../Layout/Navbar'
 import { PrimaryInputfield,InputFieldIcon } from '../components/InputField'
-import { PrimaryButton , PrimaryPurpleButton ,SecondaryButton ,SecondaryPurpleButton } from '../components/Button'
+import { PrimaryPurpleButton ,SecondaryPurpleButton } from '../components/Button'
 import logo from '../components/images/Logo.png'
 import { Link } from 'react-router-dom'
 import { LuCalendarDays } from "react-icons/lu";
+import { LuPlus } from "react-icons/lu";
+import { LuArrowLeft } from "react-icons/lu";
 
 const Identity = () => {
   return (
@@ -43,8 +45,17 @@ const Identity = () => {
         <PrimaryInputfield placeholder={ 'eg. sarah smith' }/>
        </div>
        </div>
-       <Link to={ '/Identity' } >
-       <div className='py-10'>
+       <div className='w-full left'>
+       <div className='flex  '>
+        <h3>Add second ID </h3>
+          <div className=' bg-gray-300'> <LuPlus /> </div>
+       </div>
+       </div>
+       <Link to={ '' } >
+       <div className='py-10 flex'>
+        <div className='bg-gray-300 h-16 top-5 '>
+          <LuArrowLeft />
+        </div>
         <SecondaryPurpleButton name={'Next Stop'} type={ 'button' }/>
        </div>
        </Link>

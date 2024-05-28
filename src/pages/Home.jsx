@@ -8,10 +8,10 @@ export default function Home () {
   return (
     <div>
         <div className=' flex justify-between w-full'>
-        <div className=''>
+        <div className='w-1/2'>
         <img src={ manage } alt='' />
           </div>
-          <div className='py-60'>
+          <div className='py-96 pr-40'>
                 <p className='text-lg text-grey'>Create a Free Account</p>
                 <h4 className='text-sm text-grey px-10 pb-5'>Enjoy Full Features on the Store Manager</h4>
                 <Link to='/SignUp' >

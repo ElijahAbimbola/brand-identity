@@ -23,7 +23,9 @@ module.exports = {
         white : '#FFFFFF',
         natural: '#BEC9D5',
         darkgray:'#2E2A4D',
-        purple : '#5B3ACC'
+        purple : '#5B3ACC',
+        lightgrey : '#151C34',
+        purpleheart: '#5B3ACC'
       }
     },
   },

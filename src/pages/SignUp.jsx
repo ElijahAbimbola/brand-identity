@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from  "../components/images/Logo.png"
 import { InputFieldIcon, PrimaryInputfield } from '../components/InputField'
-import { PrimaryButton, PrimaryPurpleButton, SecondaryPurpleButton } from '../components/Button'
+import {  PrimaryPurpleButton, SecondaryPurpleButton } from '../components/Button'
 import Navbar from '../Layout/Navbar'
 import { Link } from 'react-router-dom'
 import { LuCalendarDays } from "react-icons/lu";
