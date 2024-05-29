@@ -8,7 +8,7 @@ const Navbar = () => {
        <div className=''>
         <img src={ logo }  alt='' />
        </div>
-        <div className='py-36 text-white px-5'>
+        <div className='py-52 text-white px-5'>
             <p className='text-lg '>
                 Capture your users details,<br /> beautifully.
             </p>

@@ -17,7 +17,15 @@ export const SecondaryButton = ({name, onclick, loading, type}) => {
 }
 export const SecondaryPurpleButton = ({name, onclick, loading, type}) => {
   return (
-    <button className='text-center text-white text-sm px-28 py-5 border border-grey w-96 bg-purple' onClick={onclick} type={type}>
+    <button className='text-center text-white text-sm w-72 py-5 border border-grey  bg-purple' onClick={onclick} type={type}>
+        {name}
+    </button>
+  )
+}
+
+export const PurpleButton = ({name, onclick, loading, type}) => {
+  return (
+    <button className='text-center text-white text-sm w-96 py-5 border border-grey  bg-purple' onClick={onclick} type={type}>
         {name}
     </button>
   )

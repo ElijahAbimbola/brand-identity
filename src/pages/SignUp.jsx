@@ -1,8 +1,8 @@
 import React from 'react'
 import logo from  "../components/images/Logo.png"
 import { InputFieldIcon, PrimaryInputfield } from '../components/InputField'
-import {  PrimaryPurpleButton, SecondaryPurpleButton } from '../components/Button'
-import Navbar from '../Layout/Navbar'
+import {  PrimaryPurpleButton,PurpleButton,  } from '../components/Button'
+import Navbar from '../Layout/Layout'
 import { Link } from 'react-router-dom'
 import { LuCalendarDays } from "react-icons/lu";
 
@@ -62,8 +62,8 @@ const SignUp = () => {
        </div>
        </div>
        <Link to={ '/Identity' } >
-       <div className='py-10'>
-        <SecondaryPurpleButton name={'Get Started'} type={ 'button' }/>
+       <div className='py-10 '>
+        <PurpleButton  name={'Get Started'} type={ 'button' }/>
        </div>
        </Link>
     </div>
